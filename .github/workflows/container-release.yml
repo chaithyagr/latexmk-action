@@ -12,7 +12,7 @@ on:
 jobs:
   reusable-workflow:
     name: Reusable workflow
-    uses: chaithyagr/.github/.github/workflows/container-release.yml@master
+    uses: hspaans/.github/.github/workflows/container-release.yml@master
     with:
       actor: ${{ github.actor }}
       platforms: linux/amd64,linux/arm64
